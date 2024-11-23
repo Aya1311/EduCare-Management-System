@@ -1,0 +1,127 @@
+/* Import de la police de caractères */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+/* Définition des variables pour les couleurs */
+:root {
+    --primary-bg-color: #ff9000;
+    --secondary-bg-color: #F0E68C;
+    --font-color: #0f0f0f;
+    --form-border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Réinitialisation des styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles spécifiques */
+body {
+    align-items: center;
+    background: #f2f2f2;
+    color: #333333;
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 100vh;
+    justify-items: center;
+    width: 100vw;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.left-container {
+    background: #4682B4;
+    width: 400px;
+    padding: 40px 0 0 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.left-container img {
+    filter: sepia(100%);
+    width: 100%;
+}
+
+.right-container {
+    background: var(--primary-bg-color);
+    width: calc(100% - 320px); /* Ajustement de la largeur du formulaire */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-container h3 {
+    color: var(--font-color);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.right-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.right-container form table {
+    width: 100%;
+}
+
+.right-container form table tr td {
+    padding: 10px 0;
+    color: var(--font-color);
+}
+
+.right-container form table tr td input[type="text"],
+.right-container form table tr td select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--form-border-color);
+    border-radius: 4px;
+    margin-top: 5px;
+    color: var(--font-color); /* Nouvelle couleur de texte */
+    background-color: #fff; /* Nouvelle couleur d'arrière-plan */
+}
+
+.right-container form table tr td input[type="radio"] {
+    margin-right: 5px;
+}
+
+.right-container form table tr td textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    border: 1px solid var(--form-border-color);
+    border-radius: 4px;
+    margin-top: 5px;
+    color: var(--font-color); /* Nouvelle couleur de texte */
+    background-color: #fff; /* Nouvelle couleur d'arrière-plan */
+}
+
+.right-container form table tr td input[type="submit"],
+.right-container form table tr td input[type="reset"] {
+    width: 48%;
+    background-color: var(--secondary-bg-color);
+    color: var(--font-color);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.right-container form table tr td input[type="submit"]:hover,
+.right-container form table tr td input[type="reset"]:hover {
+    background-color: #171A2B;
+}

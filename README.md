@@ -49,3 +49,81 @@ EduCare est une plateforme développée avec Java Enterprise Edition (JEE) pour 
 1. **Clonez le repository** :
    ```bash
    git clone https://github.com/username/EduCare-Management-System.git
+2. **Configurez la base de données** :
+   - Créez une base de données MySQL nommée `educare`.
+   - Importez le fichier `EduCare.sql` fourni dans le répertoire `resources`.
+
+3. **Mettez à jour les informations de connexion** :
+   - Modifiez le fichier `db.properties` avec les paramètres de connexion de votre base de données MySQL.
+
+4. **Déployez l'application sur Tomcat** :
+   - Importez le projet dans votre IDE préféré (IntelliJ IDEA ou Eclipse).
+   - Configurez Apache Tomcat comme serveur d'application.
+   - Déployez l'application sur le serveur Tomcat.
+
+5. **Lancez l'application** :
+   - Démarrez le serveur Tomcat.
+   - Accédez à l'application via votre navigateur à l'adresse suivante :
+     ```
+     http://localhost:8080/EduCare
+     ```
+
+---
+## Contributions
+
+Les contributions à **EduCare-Management-System** sont les bienvenues ! Pour contribuer :
+
+1. **Forkez le dépôt** sur GitHub.
+2. **Clonez votre fork** localement :
+   ```bash
+   git clone https://github.com/username/EduCare-Management-System.git
+3. **Créez une branche pour vos modifications** :
+   ```bash
+   git checkout -b feature/nouvelle-fonctionnalite
+4. **Apportez vos modifications** :
+   - Implémentez de nouvelles fonctionnalités, corrigez des bugs ou améliorez la documentation.
+   - Assurez-vous que votre code respecte les bonnes pratiques de développement.
+   - Commentez les parties importantes ou complexes pour faciliter la relecture.
+5. **Testez vos modifications** :
+   - Vérifiez que votre code fonctionne correctement et qu'il n'introduit pas de régressions.
+   - Fournissez des tests unitaires ou fonctionnels si nécessaire pour valider vos changements.
+6. **Commitez vos modifications** :
+   ```bash
+   git commit -m "Ajout d'une nouvelle fonctionnalité"
+
+7. **Pushez votre branche vers votre fork** :
+   ```bash
+   git push origin feature/nouvelle-fonctionnalite
+8. **Ouvrez une Pull Request** :
+   - Rendez-vous sur la page GitHub du dépôt original.
+   - Cliquez sur **New Pull Request**.
+   - Sélectionnez votre branche et fournissez une description claire de vos modifications.
+   - Expliquez pourquoi ces modifications devraient être fusionnées et mentionnez tout point nécessitant une attention particulière.
+---
+
+## Auteur
+
+- **Aya Laadaili**  
+  Master en Sciences des Données et Big Data  
+  Université Hassan II - Casablanca  
+  Année Universitaire : 2023-2024  
+
+Encadré par : **Mr. Belangour**
+
+---
+
+## Licence
+
+Ce projet est sous licence **MIT**.  
+Veuillez consulter le fichier [`LICENSE`](./LICENSE) pour plus de détails.
+
+---
+
+## Aperçu
+
+**EduCare** révolutionne la gestion des centres de soutien scolaire grâce à :  
+- **Une interface intuitive** pour une prise en main facile par tous les utilisateurs.  
+- **Des fonctionnalités avancées** adaptées aux besoins des centres éducatifs modernes.  
+- **Une architecture robuste**, garantissant fiabilité et efficacité.
+
+Cette plateforme offre une solution clé en main pour la gestion administrative et éducative, tout en améliorant l'expérience des utilisateurs et en facilitant les interactions entre les différents acteurs (étudiants, enseignants, secrétaires et administrateurs).

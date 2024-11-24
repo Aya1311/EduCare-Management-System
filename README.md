@@ -51,7 +51,7 @@ EduCare est une plateforme développée avec Java Enterprise Edition (JEE) pour 
    git clone https://github.com/Aya1311/EduCare-Management-System.git
 2. **Configurez la base de données** :
    - Créez une base de données MySQL nommée `educare`.
-   - Importez le fichier `EduCare.sql` fourni dans le répertoire `resources`.
+   - Importez le fichier `EduCare.sql`.
 
 3. **Mettez à jour les informations de connexion** :
    - Modifiez le fichier `db.properties` avec les paramètres de connexion de votre base de données MySQL.

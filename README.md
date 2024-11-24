@@ -48,7 +48,7 @@ EduCare est une plateforme développée avec Java Enterprise Edition (JEE) pour 
 ### Étapes d'installation
 1. **Clonez le repository** :
    ```bash
-   git clone https://github.com/username/EduCare-Management-System.git
+   git clone https://github.com/Aya1311/EduCare-Management-System.git
 2. **Configurez la base de données** :
    - Créez une base de données MySQL nommée `educare`.
    - Importez le fichier `EduCare.sql` fourni dans le répertoire `resources`.
